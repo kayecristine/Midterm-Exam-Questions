@@ -1,6 +1,7 @@
+```json
 [
   {
-    "questionId": "q0000001",
+    "questionId": "q07212025-6",
     "question": "Which of the following cloud deployment models offers the highest level of control and security for an organization, typically hosted on-premises?",
     "subQuestion": "",
     "domain": "Cloud Deployment Models",
@@ -15,7 +16,7 @@
     "references": ["https://aws.amazon.com/compare/the-difference-between-public-cloud-and-private-cloud/"]
   },
   {
-    "questionId": "q0000002",
+    "questionId": "q07212025-7",
     "question": "In a microservices architecture, what is the primary benefit of using an API Gateway?",
     "subQuestion": "",
     "domain": "Microservices Architecture",
@@ -30,7 +31,7 @@
     "references": ["https://www.nginx.com/resources/glossary/api-gateway/"]
   },
   {
-    "questionId": "q0000003",
+    "questionId": "q07212025-8",
     "question": "Which of the following is a key advantage of adopting an Infrastructure as Code (IaC) approach in cloud solution architecture?",
     "subQuestion": "",
     "domain": "Infrastructure as Code (IaC)",
@@ -45,7 +46,7 @@
     "references": ["https://aws.amazon.com/devops/what-is-iac/"]
   },
   {
-    "questionId": "q0000004",
+    "questionId": "q07212025-9",
     "question": "When designing for high availability in a cloud environment, what strategy involves distributing application instances across multiple isolated locations within a single region?",
     "subQuestion": "",
     "domain": "High Availability and Disaster Recovery",
@@ -60,7 +61,7 @@
     "references": ["https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html"]
   },
   {
-    "questionId": "q0000005",
+    "questionId": "q07212025-10",
     "question": "What is the primary purpose of a Content Delivery Network (CDN) in a cloud solution architecture?",
     "subQuestion": "",
     "domain": "Network and Content Delivery",
@@ -75,3 +76,4 @@
     "references": ["https://www.cloudflare.com/learning/cdn/what-is-a-cdn/"]
   }
 ]
+```
