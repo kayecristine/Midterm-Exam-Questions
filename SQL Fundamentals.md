@@ -1,6 +1,7 @@
+```json
 [
   {
-    "questionId": "q0000011",
+    "questionId": "q07212025-11",
     "question": "Which SQL clause is used to filter groups of rows based on a condition, after the aggregation has been performed?",
     "subQuestion": "",
     "domain": "SQL Queries, Aggregation",
@@ -15,7 +16,7 @@
     "references": ["https://www.geeksforgeeks.org/sql/sql-where-clause/", "https://www.devart.com/dbforge/sql/sqlcomplete/sql-aggregate-functions.html"]
   },
   {
-    "questionId": "q0000012",
+    "questionId": "q07212025-12",
     "question": "You have two tables, `Employees` (EmployeeID, Name, DepartmentID) and `Departments` (DepartmentID, DepartmentName). You want to retrieve a list of all employees and their respective department names. If an employee does not have a department assigned, they should still appear in the list with a NULL value for DepartmentName. Which type of JOIN should you use?",
     "subQuestion": "",
     "domain": "SQL Joins",
@@ -30,7 +31,7 @@
     "references": ["https://www.devart.com/dbforge/sql/sqlcomplete/sql-join-statements.html", "https://www.coursera.org/articles/sql-join-types"]
   },
   {
-    "questionId": "q0000013",
+    "questionId": "q07212025-13",
     "question": "To find the average salary of employees in each department, while only including departments where the average salary is greater than 60000, which combination of SQL clauses would be most appropriate?",
     "subQuestion": "",
     "domain": "SQL Queries, Aggregation",
@@ -45,7 +46,7 @@
     "references": ["https://blog.devart.com/sql-aggregate-functions.html", "https://www.geeksforgeeks.org/sql/aggregate-functions-in-sql/"]
   },
   {
-    "questionId": "q0000014",
+    "questionId": "q07212025-14",
     "question": "You need to update the `status` of all orders that were placed before '2024-01-01' to 'Completed'. Which SQL DML statement, combined with the appropriate clause, would achieve this?",
     "subQuestion": "",
     "domain": "SQL DML, Filtering",
@@ -58,3 +59,4 @@
     },
     "correctAnswer": ["b"],
     "references": ["
+```
