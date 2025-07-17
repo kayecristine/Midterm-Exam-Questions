@@ -1,4 +1,3 @@
-```json
 [
   {
     "questionId": "q07212025-11",
@@ -13,7 +12,10 @@
       "d": "ORDER BY"
     },
     "correctAnswer": ["c"],
-    "references": ["https://www.geeksforgeeks.org/sql/sql-where-clause/", "https://www.devart.com/dbforge/sql/sqlcomplete/sql-aggregate-functions.html"]
+    "references": [
+      "https://www.geeksforgeeks.org/sql/sql-where-clause/",
+      "https://www.devart.com/dbforge/sql/sqlcomplete/sql-aggregate-functions.html"
+    ]
   },
   {
     "questionId": "q07212025-12",
@@ -28,7 +30,10 @@
       "d": "FULL OUTER JOIN"
     },
     "correctAnswer": ["c"],
-    "references": ["https://www.devart.com/dbforge/sql/sqlcomplete/sql-join-statements.html", "https://www.coursera.org/articles/sql-join-types"]
+    "references": [
+      "https://www.devart.com/dbforge/sql/sqlcomplete/sql-join-statements.html",
+      "https://www.coursera.org/articles/sql-join-types"
+    ]
   },
   {
     "questionId": "q07212025-13",
@@ -43,7 +48,10 @@
       "d": "SELECT, DISTINCT, ORDER BY"
     },
     "correctAnswer": ["b"],
-    "references": ["https://blog.devart.com/sql-aggregate-functions.html", "https://www.geeksforgeeks.org/sql/aggregate-functions-in-sql/"]
+    "references": [
+      "https://blog.devart.com/sql-aggregate-functions.html",
+      "https://www.geeksforgeeks.org/sql/aggregate-functions-in-sql/"
+    ]
   },
   {
     "questionId": "q07212025-14",
@@ -58,5 +66,27 @@
       "d": "ALTER TABLE Orders MODIFY status = 'Completed' WHERE order_date < '2024-01-01';"
     },
     "correctAnswer": ["b"],
-    "references": ["
-```
+    "references": [
+      "https://www.w3schools.com/sql/sql_update.asp",
+      "https://www.geeksforgeeks.org/sql-update-statement/"
+    ]
+  },
+  {
+    "questionId": "q07212025-15",
+    "question": "Which of the following SQL statements correctly uses a subquery to find employees whose salary is above the average salary of all employees?",
+    "subQuestion": "",
+    "domain": "SQL Subqueries",
+    "difficulty": "intermediate",
+    "answers": {
+      "a": "SELECT * FROM Employees WHERE salary > (SELECT MAX(salary) FROM Employees);",
+      "b": "SELECT * FROM Employees WHERE salary = (SELECT AVG(salary) FROM Employees);",
+      "c": "SELECT * FROM Employees WHERE salary > (SELECT AVG(salary) FROM Employees);",
+      "d": "SELECT * FROM Employees GROUP BY salary HAVING salary > AVG(salary);"
+    },
+    "correctAnswer": ["c"],
+    "references": [
+      "https://www.geeksforgeeks.org/sql-subqueries/",
+      "https://learnsql.com/blog/sql-subquery/"
+    ]
+  }
+]
